@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html,
+        body {
+            height: 100%;
+            box-sizing: border-box;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: nowrap;
+            height: 80px;
+            background-color: gray;
+        }
+
+        .logo {
+            background-image: url(youtube.png);
+            width: 280px;
+            height: 50px;
+            background-size: cover;
+        }
+
+        .search {
+            padding: 2px;
+            width: 350px;
+            border-radius: 5px;
+        }
+
+        .icon {
+            background-image: url(icon.png);
+            background-size: cover;
+            width: 40px;
+            height: 30px;
+        }
+
+        .sp,
+        .ps {
+            padding: 1px;
+            border-radius: 5px;
+            background-color: gray;
+            color: white;
+        }
+
+        .sp:hover {
+            background-color: orange;
+            transition: 1.5s;
+        }
+
+        .ps:hover {
+            background-color: orange;
+            transition: 1.5s;
+        }
+
+        .boxlar {
+            display: flex;
+            justify-content: space-around;
+            height: 90px;
+            background-color: black;
+        }
+
+        .box {
+            color: black;
+            margin-top: 30px;
+            background-color: white;
+            height: 25px;
+            padding: 4px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo">
+
+        </div>
+        <div class="search">
+            <input type="search" class="search" placeholder="search">
+        </div>
+        <div class="icon"></div>
+        <div class="sign">
+            <button class="sp">SIGN IN</button>
+            <button class="ps">LOGIN</button>
+        </div>
+    </div>
+    <div class="boxlar">
+        <div class="box1">All</div>
+        <div class="box">Music</div>
+        <div class="box">Mixes</div>
+        <div class="box">Alive</div>
+        <div class="box">Game</div>
+        <div class="box">Sketch comedy</div>
+        <div class="box">Rap</div>
+        <div class="box">are the last ones uploaded</div>
+    </div>
+</body>
+
+</html>
